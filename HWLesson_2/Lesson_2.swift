@@ -9,19 +9,19 @@ import Foundation
 import UIKit
 
 class Lesson2: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //ДЗ:
         //• сумма отдельно целых и отдельно дробных частей чисел 2.5, 9.7, 6.9, 8.2
         // *** проверка, является ли число четным
-
+        
         var first = 2.5
         var second = 9.7
         var third = 6.9
         var forth = 8.2
-
+        
         //сумма отдельно целых частей чисел
         
         var firstInt = Int(first)
@@ -60,10 +60,11 @@ class Lesson2: UIViewController {
         } else {
             print (String(Float(sumOfFractions)) + " - это нечетное число")
             //привел к Float что бы просто посмотреть сработает ли и в консоли вывелось число с меньшим количеством цифр)v
-        
+            
+            
+            
+        }
         
         
     }
-
-
 }
