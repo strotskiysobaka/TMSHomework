@@ -13,6 +13,7 @@
 		C43E1DBF2B20845F00F11F10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43E1DBD2B20845F00F11F10 /* Main.storyboard */; };
 		C43E1DC12B20846000F11F10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43E1DC02B20846000F11F10 /* Assets.xcassets */; };
 		C43E1DC42B20846000F11F10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43E1DC22B20846000F11F10 /* LaunchScreen.storyboard */; };
+		C43E1DCE2B2086F700F11F10 /* Lesson_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43E1DCD2B2086F700F11F10 /* Lesson_2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C43E1DC02B20846000F11F10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C43E1DC32B20846000F11F10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C43E1DC52B20846000F11F10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43E1DCD2B2086F700F11F10 /* Lesson_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		C43E1DAB2B20845F00F11F10 = {
 			isa = PBXGroup;
 			children = (
+				C43E1DCC2B2086DC00F11F10 /* HWLesson_2 */,
 				C43E1DB62B20845F00F11F10 /* Homework */,
 				C43E1DB52B20845F00F11F10 /* Products */,
 			);
@@ -65,6 +68,14 @@
 				C43E1DC52B20846000F11F10 /* Info.plist */,
 			);
 			path = Homework;
+			sourceTree = "<group>";
+		};
+		C43E1DCC2B2086DC00F11F10 /* HWLesson_2 */ = {
+			isa = PBXGroup;
+			children = (
+				C43E1DCD2B2086F700F11F10 /* Lesson_2.swift */,
+			);
+			path = HWLesson_2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				C43E1DBC2B20845F00F11F10 /* ViewController.swift in Sources */,
 				C43E1DB82B20845F00F11F10 /* AppDelegate.swift in Sources */,
+				C43E1DCE2B2086F700F11F10 /* Lesson_2.swift in Sources */,
 				C43E1DBA2B20845F00F11F10 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
